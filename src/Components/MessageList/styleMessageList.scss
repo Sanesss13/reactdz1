@@ -1,0 +1,25 @@
+.message_list {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+  }
+  
+  .message_list__block {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+  }
+  
+  .message_list__author {
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-decoration-line: underline
+  }
+  
+  .message_list__text {
+    margin: 5px 0;
+    font-size: 0.8em;
+  }
