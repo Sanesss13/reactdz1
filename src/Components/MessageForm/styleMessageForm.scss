@@ -1,0 +1,28 @@
+.message-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-form__author {
+  width: 100px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0; 
+  color: #000;
+}
+
+.message-form__text {
+  height: 65px;
+  resize: none;
+  border-radius: 0px 10px 5px 20px;
+}
+
+.message-form__submit {
+  width: 100px;
+  align-self: end;
+}
+
+.message-form__text,
+.message-form__author {
+  outline: none;
+}
